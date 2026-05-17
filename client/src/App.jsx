@@ -22,7 +22,7 @@ function App() {
 
   try {
     const response = await axios.post(
-      "https://compraassignment.onrender.com",
+      "https://compraassignment.onrender.com/api/chat",
       {
         message: input,
         layout,
